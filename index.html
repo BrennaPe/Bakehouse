@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BakeHouse</title>
+    <link rel="stylesheet" href="assets/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="container-header" class="pad-inline-fixed">
+            <div id="logo">
+                Brew & Bite
+            </div>
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="#" class="display-none">Home</a></li>
+                    <li><a href="#" class="display-none">Order Online</a></li>
+                    <li><a href="#" class="display-none">Galery</a></li>
+                    <li><a href="#" class="display-none">Contact</a></li>
+                    <li><img src="assets/images/menu-sanduiche.svg" alt="menu icon" onclick="openSideMenu()"></li>
+                </ul>
+            </nav>
+        </div>
+        <nav id="aside-menu">
+            <ul>
+                <li><img src="assets/images/close.svg" alt="menu icon" onclick="closeSideMenu()"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Galery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Content for mobile -->
+        <section class="main-mobile">
+                <div id="img-bg"></div>
+            <div id="container-main-mobile">
+                <h1>Galway</h1>
+                <ul>
+                    <li><a href="#">CAKE</a></li>
+                    <li><a href="#">PASTRY</a></li>
+                    <li><a href="#">BREAD</a></li>
+                    <li><a href="#">COFFEE</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    
+    <script>
+        function openSideMenu(){
+            let sideMenu = document.getElementById('aside-menu')
+            sideMenu.style.display=('flex')
+        }
+
+        function closeSideMenu(){
+            let cSideMenu = document.getElementById('aside-menu')
+            cSideMenu.style.display=('none')
+        }
+    </script>
+</body>
+</html>
