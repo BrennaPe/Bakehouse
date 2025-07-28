@@ -11,8 +11,9 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100vh Força o corpo a ficar fixo no tamanho da tela, o que causa overflow vertical se o conteúdo passar */
     font-family: "Montserrat", sans-serif;
     background-color: var(--color-bg);
     overflow-x: hidden;
