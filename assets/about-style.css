@@ -43,9 +43,10 @@ main #img-abt-us{
     /* border: 5px solid red; */
     width: 100%;
     height: 45em;
-    background-image: url(images/bg-abtUs.png);
+    background-image: url(images/bg-about-us.png
+    );
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
 }
 
@@ -54,9 +55,7 @@ main #about-us p:nth-child(1){
 }
 main #about-us span{
     font-size: .7em;
-    color: rgba(128, 128, 128, 0.595);
-    text-transform: uppercase;
-    
+    color: rgba(128, 128, 128, 0.595);    
 }
 
 main #about-us h1{
@@ -83,4 +82,22 @@ main #about-us p:nth-child(3){
     font-size: 1.2em;
     font-weight: 400;
     text-align: left;
+}
+
+main #about-us p:nth-child(7){
+    text-align: center;}
+
+    /* ----------MAIN IMAGES---------- */
+
+main #main-images{
+    /* border: 5px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+main #main-images img{
+    width: 100%;
+
 }
