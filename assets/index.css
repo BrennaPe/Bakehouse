@@ -59,7 +59,7 @@ header ul{
     /* border: 1px solid red; */
     display: flex;
     padding: 16px;
-    width: 100vw;
+    width: 100%;
     border-bottom: .5px solid rgba(255, 255, 255, 0.298);
     transition: background .2s;
 }
@@ -86,10 +86,6 @@ main #img-bg{
     
 }
 
-.main-mobile1{
-    border: 1px solid rgb(94, 42, 42);
-    height: 200px;
-}
 
 #container-main-mobile{
     width: 80%;
