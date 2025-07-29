@@ -48,6 +48,7 @@ main #img-abt-us{
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    
 }
 
 main #about-us p:nth-child(1){
@@ -100,4 +101,178 @@ main #main-images{
 main #main-images img{
     width: 100%;
 
+}
+
+/* --------------------eat in-------------- */
+
+#container-eat-in{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    height: 25em;
+    margin-top: 16px;
+}
+
+#container-eat-in #eat-in{
+    /* border: 2px solid green; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid black; */
+    width: 100%;
+
+    h2{
+        text-align: center;
+    }
+
+    a{
+        border: .7px solid rgba(128, 128, 128, 0.595);
+        padding: 16px;
+        cursor: pointer;
+        font-size: .7em;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+#eat-in p:nth-child(1){
+    font-size: .7em;
+    color: rgba(128, 128, 128, 0.435); 
+}
+
+#eat-in-img{
+    /* border: 5px solid rgb(119, 255, 0); */
+    height: 100%;
+    width: 100%;
+    background-image: url(images/about-eat-in.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ----------------take away------------- */
+
+#container-take-away{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 25em;
+    margin-top: 16px;
+}
+
+#container-take-away #take-away{
+    /* border: 2px solid green; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid black; */
+    width: 100%;
+
+    h2{
+        text-align: center;
+    }
+
+    a{
+        border: .7px solid rgba(128, 128, 128, 0.595);
+        padding: 16px;
+        cursor: pointer;
+        font-size: .7em;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+#take-away p:nth-child(1){
+    font-size: .7em;
+    color: rgba(128, 128, 128, 0.435); 
+}
+
+#take-away p:nth-child(3){
+    font-size: .8em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+#take-away-img{
+    /* border: 5px solid rgb(119, 255, 0); */
+    height: 100%;
+    width: 100%;
+    background-image: url(images/about-take-away.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ---------------FOOTER--------- */
+#bottom-logo-about{
+    font-family: "brittany", sans-serif;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    padding: 12px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+
+#bottom-logo-about span{
+    font: var(--paragraph);
+
+}
+
+#social-media-about{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#social-media-about img{
+    width: 2em;
+    height: 2em;
+    margin: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    opacity: .5;    
+}
+
+#footer-nav ul{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 8px;
+    font-size: .8em;
+}
+
+#footer-nav ul a{
+    cursor: pointer;
+
+}
+#footer-nav ul a:hover{
+    border-bottom: 1px solid black;
+}
+
+#copyright{
+    /* border: 2px solid red; */
+    font-size: .7em;
+    color: rgba(0, 0, 0, 0.524); 
+    text-align: center;
+    padding: 8px;
+    margin-top: 12px;
 }
