@@ -250,6 +250,10 @@ main #main-images img{
     opacity: .5;    
 }
 
+#social-media-about img:hover{
+    opacity: 2 ;    
+}
+
 #footer-nav ul{
     /* border: 2px solid red; */
     display: flex;
