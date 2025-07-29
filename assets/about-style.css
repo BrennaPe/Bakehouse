@@ -23,7 +23,7 @@ header #container-header{
 
 header #logo{
     font: var(--h2);
-    font-weight: 600;
+    font-weight: 800;
     /* border: 1px solid red; */
 } 
 
@@ -32,6 +32,47 @@ header ul{
     display: flex;
     align-items: center;
 }
+
+/* ----------------ASIDE MENU------------ */
+
+#aside-menu{
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.431);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+#aside-menu ul{
+    /* border: 4px solid rgb(25, 56, 123); */
+    display: flex;
+    flex-direction: column;
+}
+
+
+#aside-menu ul li a, #aside-menu ul li:first-child{
+    /* border: 1px solid rgb(78, 128, 237); */
+    padding: 24px;
+    display: flex;
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.654);
+    border-bottom: solid .5px rgba(255, 255, 255, 0.221);
+    cursor: pointer;
+}
+
+#aside-menu ul li a:hover{
+    /* border: 1px solid rgb(78, 128, 237); */
+    background-color: rgba(255, 255, 255, 0.193);
+    color: rgba(255, 255, 255, 0.654);
+    font-weight: 500;
+}
+
+
+
+
 
 /* ------------------MAIN------------------ */
 main{

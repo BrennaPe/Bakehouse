@@ -22,19 +22,22 @@
                     <li><a href="#" class="display-none">Order Online</a></li>
                     <li><a href="#" class="display-none">Galery</a></li>
                     <li><a href="#" class="display-none">Contact</a></li>
-                    <li><img src="assets/images/menu-sand-black.svg" alt="menu icon" onclick="openSideMenu()"></li>
+                    <li><img src="assets/images/menu-sand-black.svg" alt="menu icon" onclick="openSideMenu()" style="cursor: pointer;" id="clickOpenSideMenu"></li>
                 </ul>
             </nav>
         </div>
-        <!-- <nav id="aside-menu">
+
+        <nav id="aside-menu">
             <ul>
-                <li><img src="assets/images/close.svg" alt="menu icon" onclick="closeSideMenu()"></li>
+                <li><img src="assets/images/close.svg" alt="menu icon" onclick="closeSideMenu()" id="icon-close-menu"></li>
+                <li><a href="index.html" target="_blank">Home</a></li>
                 <li><a href="about.html" target="_blank">About us</a></li>
                 <li><a href="#">Order Online</a></li>
                 <li><a href="#">Galery</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </nav> -->
+        </nav>
+
     </header>
     <main>
         <div id="img-abt-us"></div>
@@ -121,4 +124,19 @@
             <p>Site by Brenna Westphal</p>
     </footer>
 </body>
+
+<script>
+    function openSideMenu(){
+        let clickSideMenu = document.getElementById("clickOpenSideMenu")
+        let actualSideMenu = document.getElementById("aside-menu");
+        actualSideMenu.style.display = "flex"
+    }
+
+    function closeSideMenu(){
+        let buttonCloseMenu = document.getElementById("icon-close-menu")
+        let actualSideMenu = document.getElementById("aside-menu");
+        actualSideMenu.style.display = "none"
+
+    }
+</script>
 </html>
