@@ -49,23 +49,20 @@ header ul{
     color: var(--color-font-secondary);
 }
 
-#aside-menu ul li:nth-child(1){
-    padding-left: 16px;
-    padding-top: 16px;
-    /* border: 1px solid red; */
-}
 
-#aside-menu ul a{
+#aside-menu ul a, #aside-menu ul li:nth-child(1){
     /* border: 1px solid red; */
     display: flex;
-    padding: 16px;
-    width: 100%;
+    padding: 24px;
+    width: 100vw;
     border-bottom: .5px solid rgba(255, 255, 255, 0.298);
     transition: background .2s;
+    cursor: pointer;
 }
 
 #aside-menu ul a:hover{
     background-color: rgba(255, 255, 255, 0.298);
+    color: rgba(255, 255, 255, 0.893);
 
 }
 
