@@ -325,3 +325,45 @@ main #main-images img{
     padding: 8px;
     margin-top: 12px;
 }
+
+/* ------------------media queries------------ */
+
+@media screen and (min-width: 900px){
+    .display-none{
+        display: flex;
+    }
+
+    header #container-header{
+    padding-block: 24px;}
+
+    #main-menu ul{
+        gap: 24px;
+
+        a{
+            font-weight: 450;
+        }
+    }
+
+    #main-menu ul li a:hover{
+        border-bottom: 1px solid black;
+    }
+
+
+
+
+    #clickOpenSideMenu{
+        display: none;
+    }
+
+
+   #about-us{
+        /* border: 2px solid red; */
+        max-width: 1000px;
+        margin: auto;
+   }
+
+   #footer-nav{
+    max-width: 800px;
+    margin: auto;
+   }
+}

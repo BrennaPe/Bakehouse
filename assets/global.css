@@ -17,7 +17,7 @@ body{
     font-family: "Montserrat", sans-serif;
     background-color: var(--color-bg);
     overflow-x: hidden;
-    background-color: black;
+    /* background-color: black; */
 }
 
 :root{
