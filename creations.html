@@ -44,14 +44,13 @@
         <!-- <h1>BREW AND BITE</h1> -->
         <div id="place-order-call">
             <p>By pre-order or take-away</p>
-            <h1>Seasonal Creations by Élise Marchand</h1>
+            <h1>Creations by <span>Élise Marchand</span></h1>
             <a href="#">PLACE ORDER</a>
         </div>
-        <div>
-            <h2>Our Seasonal Creations</h2>
+        <div id="presentation-creations">
             <p>Crafted with the finest ingredients
             </p>
-            <h1>inspired by the flavors of the season.</h1>
+            <h1>Inspired by the flavors of the season.</h1>
             <p>14 Loughlane Galway 12802 Ireland. Wednesday to Sunday - 8:00 am to 5:00 pm </p>
         </div>
 
@@ -60,15 +59,7 @@
             <figure>
                 <img src="./assets/images/creation1.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
-
-            <figure>
-                <img src="./assets/images/creation2.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Amour</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
@@ -76,103 +67,103 @@
             <figure>
                 <img src="./assets/images/creation3.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Halo</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation4.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Gild</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation5.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Petite</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation6.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Velour</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="./assets/images/creation7.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/images/creation8.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/images/creation9.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
+
             <figure>
                 <img src="./assets/images/creation10.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Lustre</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation11.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Crème</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation12.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Solace</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation13.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Bloom</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="./assets/images/creation14.png" alt="">
                 <figcaption>
-                    <h2>NAME HERE</h2>
+                    <h2>Élan</h2>
                     <p>From €20.00</p>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="./assets/images/creation15.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/images/creation16.png" alt="">
-                <figcaption>
-                    <h2>NAME HERE</h2>
-                    <p>From €20.00</p>
-                </figcaption>
-            </figure>
-
         </section>
     </main>
+        <footer>
+        <h1 id="bottom-logo-about">
+            Brew and Bite <span>&#174;</span>
+        </h1>
+
+        <div id="social-media-about">
+            <a href=""><img src="assets/images/instagram.svg" alt=""></a>
+            <a href=""><img src="assets/images/tiktok.svg" alt=""></a>
+        </div>
+        
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Join us</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+
+        <div id="copyright">
+            <p>© 2023 Brew & Bite. All rights reserved.</p>
+            <p>Site by Brenna Westphal</p>
+    </footer>
+
+    <script>
+        function openSideMenu(){
+            let actualSideMenu = document.getElementById("aside-menu");
+            actualSideMenu.style.display = "flex"
+             }
+
+        function closeSideMenu(){
+            let actualSideMenu = document.getElementById("aside-menu");
+            actualSideMenu.style.display = "none"
+        }
+    </script>
 </body>
 </html>
