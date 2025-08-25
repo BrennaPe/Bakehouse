@@ -342,11 +342,11 @@ main #main-images img{
     }
 
     #main-menu ul{
-        gap: 28px;
+        gap: 32px;
 
         a{
             font-size: 1.2em;
-            font-weight:400;
+            font-weight:200;
             transition: font-weight 0.3s ease;
         }
     }
@@ -354,8 +354,6 @@ main #main-images img{
     #main-menu ul li a:hover{
         font-weight: 600;
     }
-
-
 
 
     #clickOpenSideMenu{
@@ -367,6 +365,11 @@ main #main-images img{
         /* border: 2px solid red; */
         max-width: 1000px;
         margin: auto;
+   }
+
+   footer #social-media-about{
+    flex-direction: row;
+    justify-content: center;
    }
 
    #footer-nav{
