@@ -1,0 +1,89 @@
+@import url(assets/global.css);
+
+header{
+    position: initial;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 71%;
+}
+
+main h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+main #input{
+    /* border: 1px solid red; */
+    padding: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.711);
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+    height: fit-content;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+}
+
+form input, form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.712);
+}
+
+form button{
+    height: 50px;
+    font-weight: 100;
+    border: .7px solid rgba(16, 16, 16, 0.595);
+    background-color: transparent;
+    padding: 16px;
+    cursor: pointer;
+    font-size: .7em;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+
+form button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.831);
+    border: .7px solid rgb(19, 19, 19);
+    transition: .3s;
+}
+
+
+#dados-contato p:nth-child(1), p:nth-child(3){
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media-contact {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    justify-content: center;}
+
+#social-media-contact img{
+    width: 16px;
+    margin-top: 12px;
+}
+
