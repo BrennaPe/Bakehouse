@@ -52,11 +52,14 @@ form button{
     font-weight: 100;
     border: .7px solid rgba(16, 16, 16, 0.595);
     background-color: transparent;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
     padding: 16px;
     cursor: pointer;
     font-size: .7em;
     margin-top: 12px;
     text-transform: uppercase;
+
 }
 
 form button:hover{
