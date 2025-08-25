@@ -328,24 +328,31 @@ main #main-images img{
 
 /* ------------------media queries------------ */
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 992px){
     .display-none{
         display: flex;
     }
 
+    header #logo{
+        font-size: 2em;
+    }
+
     header #container-header{
-    padding-block: 24px;}
+    padding-block: 18px;
+    }
 
     #main-menu ul{
-        gap: 24px;
+        gap: 28px;
 
         a{
-            font-weight: 450;
+            font-size: 1.2em;
+            font-weight:400;
+            transition: font-weight 0.3s ease;
         }
     }
 
     #main-menu ul li a:hover{
-        border-bottom: 1px solid black;
+        font-weight: 600;
     }
 
 
