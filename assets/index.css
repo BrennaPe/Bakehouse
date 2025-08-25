@@ -115,3 +115,81 @@ main ul a{
     display: flex;
     font-weight: 400;
 }
+
+/* ---------------FOOTER---------------- */
+
+footer{
+    color: rgba(255, 255, 255, 0.557);
+    
+}
+
+#copyright{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0; /* Coloca o elemento encostado na parte inferior do elemento pai que tem position: relative; (ou da viewport se for fixed). */
+    left: 50%;/* Isso significa: o lado esquerdo do elemento está alinhado no meio do pai. Problema: o elemento vai ficar deslocado, porque só o canto esquerdo está no centro, não o elemento inteiro. */
+    transform: translateX(-50%);
+    /*  Move o elemento para a esquerda 50% da própria largura. Assim, o centro do elemento fica exatamente no centro do pai. */
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+/* -------------MEDIA QUERIES--------------*/
+
+@media screen and (min-width: 992px) {
+    header #logo{
+        font-size: 2em;
+    }
+
+    header #container-header{
+        max-width: 95%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    header #main-menu ul{
+        display: flex;
+        gap: 38px;
+    }
+    
+    header li:last-child{
+        display: none;
+    }
+
+    header #main-menu li a{
+        display: block;
+        font-size: 1.2em;
+        font-weight: 200;
+        transition: font-weight 0.3s ease;
+    }
+
+     header #main-menu li a:hover{
+        font-weight: 500;
+     }
+
+     #container-main-mobile h1{
+        font-size: 3.5em;
+        margin-bottom: 24px;
+     }
+
+     #container-main-mobile ul{
+        max-width: 700px;
+        margin: auto;
+     }
+
+     #container-main-mobile li a{
+        font-size: 1.1em;
+        transition: font-weight 0.3s ease;
+
+     }
+
+     #container-main-mobile li a:hover{
+        font-weight: 600;
+     }
+
+}
+
