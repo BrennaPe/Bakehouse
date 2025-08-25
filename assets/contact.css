@@ -1,7 +1,9 @@
 @import url(assets/global.css);
 
 header{
-    position: initial;}
+    position: initial;
+    border-bottom: .5px solid rgba(70, 68, 68, 0.629);
+}
 
 body{
     width: 100vw;
@@ -87,3 +89,34 @@ form button:hover{
     margin-top: 12px;
 }
 
+/* ------------------MEDIA QUERIS---------------- */
+
+@media (min-width: 992px) {
+    form{
+        width: 60%;
+    }
+
+    main #input{
+        display: flex;
+        max-width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #dados-contato{
+        width: 40%;
+        /* border: 1px solid red; */
+    }
+
+    #info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid #0022ff; */
+    }
+
+    #info p{
+        text-align: center;
+
+    }
+}
